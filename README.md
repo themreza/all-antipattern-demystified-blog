@@ -1,0 +1,1 @@
+# all-antipattern-demystified-blog
