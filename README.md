@@ -1,1 +1,1 @@
-# all-antipattern-demystified-blog
+# all antipatterns demystified 
