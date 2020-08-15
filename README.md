@@ -1,6 +1,5 @@
 # all antipatterns demystified     
 
-
 I deleted duplicates and categorize them again with alternative name.   
 may be some of them be in [Code smells]() but don't worry we investigate them later.      
 
@@ -95,39 +94,39 @@ may be some of them be in [Code smells]() but don't worry we investigate them la
     75-Hard code: Embedding assumptions about the environment of a system in its implementation.     
     76-Lava flow: Retaining undesirable (redundant or low-quality) code because removing it is too expensive or has unpredictable consequences.     
     77-Loop-switch sequence: Encoding a set of sequential steps using a switch within a loop statement.     
-    Magic numbers: Including unexplained numbers in algorithms.     
-    78-Magic strings: Including literal strings in code, for comparisons, as event types etc.
-    79-Soft code: Storing business logic in configuration files rather than source code.     
-    80-**Repeating yourself**: Writing code which contains repetitive patterns and substrings over again; avoid with once and only once (abstraction principle).     
-    81-Spaghetti code: Programs whose structure is barely comprehensible, especially because of misuse of code structures.     
-    82-Lasagna code: Programs whose structure consists of too many layers of inheritance.     
-    83-**Shooting the messenger**: Throwing exceptions from the scope of a plugin or subscriber in response to legitimate input, especially when this causes the outer scope to fail.     
-    84-Shotgun surgery: Developer adds features to an application codebase which span a multiplicity of implementors or implementations in a single change.     
+    78-Magic numbers: Including unexplained numbers in algorithms.     
+    79-Magic strings: Including literal strings in code, for comparisons, as event types etc.
+    80-Soft code: Storing business logic in configuration files rather than source code.     
+    81-**Repeating yourself**: Writing code which contains repetitive patterns and substrings over again; avoid with once and only once (abstraction principle).     
+    82-Spaghetti code: Programs whose structure is barely comprehensible, especially because of misuse of code structures.     
+    83-Lasagna code: Programs whose structure consists of too many layers of inheritance.     
+    84-**Shooting the messenger**: Throwing exceptions from the scope of a plugin or subscriber in response to legitimate input, especially when this causes the outer scope to fail.     
+    85-Shotgun surgery: Developer adds features to an application codebase which span a multiplicity of implementors or implementations in a single change.     
 
 ## Methodological anti-patterns.     
 
-    85-Copy and paste programming(Found on Internet): Copying (and modifying) existing code rather than creating generic solutions.     
-    86-**Every fool their own tool**: Failing to use proper software development principles when creating tools to facilitate the software development process itself.     
-    87-Golden hammer: Assuming that a favorite solution is universally applicable (See: Silver Bullet).     
-    88-Improbability factor: Assuming that it is improbable that a known error will occur.     
-    89-Not Invented Here (NIH) syndrome: The tendency towards reinventing the wheel (Failing to adopt an existing, adequate solution).     
-    90-**Invented here**: The tendency towards dismissing any innovation or less than trivial solution originating from inside the organization, usually because of lack of confidence in the staff.     
-    91-Premature optimization: Coding early-on for perceived efficiency, sacrificing good design, maintainability, and sometimes even real-world efficiency.     
-    92-Programming by permutation (or "programming by accident"): Trying to approach a solution by successively modifying the code to see if it works.     
-    93-Reinventing the wheel: Failing to adopt an existing, adequate solution.     
-    94-Reinventing the square wheel: Failing to adopt an existing solution and instead adopting a custom solution which performs much worse than the existing one.     
-    95-Silver bullet: Assuming that a favorite technical solution can solve a larger process or problem.     
-    96-Tester Driven Development: Software projects in which new requirements are specified in bug reports.     
-    97-Assumption Driven Programming refers to the developer practice of assuming all users are like them. The best way to avoid falling into this trap is to interact with users as much as possible.    
+    86-Copy and paste programming(Found on Internet): Copying (and modifying) existing code rather than creating generic solutions.     
+    87-**Every fool their own tool**: Failing to use proper software development principles when creating tools to facilitate the software development process itself.     
+    88-Golden hammer: Assuming that a favorite solution is universally applicable (See: Silver Bullet).     
+    89-Improbability factor: Assuming that it is improbable that a known error will occur.     
+    90-Not Invented Here (NIH) syndrome: The tendency towards reinventing the wheel (Failing to adopt an existing, adequate solution).     
+    91-**Invented here**: The tendency towards dismissing any innovation or less than trivial solution originating from inside the organization, usually because of lack of confidence in the staff.     
+    92-Premature optimization: Coding early-on for perceived efficiency, sacrificing good design, maintainability, and sometimes even real-world efficiency.     
+    93-Programming by permutation (or "programming by accident"): Trying to approach a solution by successively modifying the code to see if it works.     
+    94-Reinventing the wheel: Failing to adopt an existing, adequate solution.     
+    95-Reinventing the square wheel: Failing to adopt an existing solution and instead adopting a custom solution which performs much worse than the existing one.     
+    96-Silver bullet: Assuming that a favorite technical solution can solve a larger process or problem.     
+    97-Tester Driven Development: Software projects in which new requirements are specified in bug reports.     
+    98-Assumption Driven Programming refers to the developer practice of assuming all users are like them. The best way to avoid falling into this trap is to interact with users as much as possible.    
 ## Configuration management anti-patterns.     
 
-    98-Dependency hell: Problems with versions of required products.     
-    99-DLL hell: Inadequate management of dynamic-link libraries (DLLs), specifically on Microsoft Windows.     
-    100-Extension conflict: Problems with different extensions to pre-Mac OS X versions of the Mac OS attempting to patch the same parts of the operating system.     
-    101-JAR hell: Overutilization of the multiple JAR files, usually causing versioning and location problems because of misunderstanding of the Java class loading model.     
+    99-Dependency hell: Problems with versions of required products.     
+    100-DLL hell: Inadequate management of dynamic-link libraries (DLLs), specifically on Microsoft Windows.     
+    101-Extension conflict: Problems with different extensions to pre-Mac OS X versions of the Mac OS attempting to patch the same parts of the operating system.     
+    102-JAR hell: Overutilization of the multiple JAR files, usually causing versioning and location problems because of misunderstanding of the Java class loading model.     
 
 
-## links
+## links     
 https://en.wikibooks.org/wiki/Introduction_to_Software_Engineering/Architecture/Anti-Patterns       
 https://wiki.c2.com/?AntiPattern       
 https://sourcemaking.com/antipatterns       
