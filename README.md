@@ -289,7 +289,7 @@ it can be reach by exprience ,reading awesomes source codes,be practical with de
 seprate variable meaning , method , class , module, package , responsibility.   
 don't encapsulate or expose interface or abstract too much or too a few.     
 
-#### 3- (use clean code)[https://gist.github.com/Arshiamidos/8474c210e072fed50b9747863b3e6619]      
+#### 3- [use clean code](https://gist.github.com/Arshiamidos/8474c210e072fed50b9747863b3e6619)      
 
 #### 4- think past , now , future (time situation effect) of project. more important increamentaly but not too much or too a few     
 it's like you are building a metro with stations and rails like [mini metro](https://play.google.com/store/apps/details?id=nz.co.codepoint.minimetro&hl=en).      
@@ -298,7 +298,7 @@ it's better to write test for backward(time) compatibility.
 #### 5- think all side of project or tech,with micro ,macro or mega magnifier simultaneously(place situation effect) .     
 e.g use codecity for browseing project's density.     
 
-#### 6 - repair your code as soon as possilbe you can , before it's too late (Leblanc Law : later equals never) [https://gist.github.com/Arshiamidos/8474c210e072fed50b9747863b3e6619].    
+#### 6 - repair your code as soon as possilbe you can , before it's too late [Leblanc Law : later equals never](https://gist.github.com/Arshiamidos/8474c210e072fed50b9747863b3e6619).    
 
 #### 7 - don't trust user input, validate first and then apply.    
 
