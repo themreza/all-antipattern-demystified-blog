@@ -296,7 +296,7 @@ it's like you are building a metro with stations and rails like [mini metro](htt
 it's better to write test for backward(time) compatibility.    
 
 #### 5- think all side of project or tech,with micro ,macro or mega magnifier simultaneously(place situation effect) .     
-e.g use codecity for browseing project's density.     
+e.g use [codecity](https://wettel.github.io/codecity.html) for browseing project's density.     
 
 #### 6 - repair your code as soon as possilbe you can , before it's too late [Leblanc Law : later equals never](https://gist.github.com/Arshiamidos/8474c210e072fed50b9747863b3e6619).    
 
