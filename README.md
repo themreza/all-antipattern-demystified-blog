@@ -107,10 +107,10 @@ ___________
 39::::: Waterfail(waterfall):Waterfall, or Waterfail, is a rigid software development life cycle methodology that moves all activity through a 
 series of stages, such as Gather Requirements, Design, Develop, Test, Deliver, Maintain.    
 
-40::::: The Flags Over Objects anti-pattern occurs when behavior is written outside of an object by inspecting flags (such as status codes), 
+40::::: The Flags Over Objects: anti-pattern occurs when behavior is written outside of an object by inspecting flags (such as status codes), 
 rather than within the object itself. This violates the Tell, Don’t Ask principle.     
 
-41:::::**Abstraction inversion**: Not exposing implemented functionality required by users, so that they re-implement it using higher level 
+41:::::**Abstraction inversion**(Inner-platform effect): Not exposing implemented functionality required by users, so that they re-implement it using higher level 
 functions.     
 
 42:::::Copy Folder Versioning:  a software development anti-pattern in which source code is updated by simply making copies of the folder.    
@@ -172,7 +172,7 @@ any moment, because their validation and mutation logic is placed somewhere outs
 
 66:::::Poltergeists: Objects whose sole purpose is to pass information to another object.     
 
-67:::::Sequential coupling: A class that requires its methods to be called in a particular order.     
+67:::::Sequential coupling(water fall): A class that requires its methods to be called in a particular order.     
 
 68:::::Yo-yo problem: A structure (e.g., of inheritance) that is hard to understand due to excessive fragmentation.     
 
@@ -197,7 +197,7 @@ ___________
 
 77:::::**Cargo cult programming** (the Calendar Coder): Using patterns and methods without understanding why.     
 
-78:::::Coding by exception: Adding new code to handle each special case as it is recognized.     
+78:::::**Coding by exception**(spagetti , Lasagna , n season pizza , ...): Adding new code to handle each special case as it is recognized.     
 
 79:::::**Design pattern**: The use of patterns has itself been called an anti-pattern, a sign that a system is not employing enough 
 abstraction.     
@@ -225,8 +225,7 @@ consequences.
 
 89:::::Lasagna code: Programs whose structure consists of too many layers of inheritance.     
 
-90:::::**Shooting the messenger**: Throwing exceptions from the scope of a plugin or subscriber in response to legitimate input, especially when 
-this causes the outer scope to fail.     
+90:::::**Shooting the messenger**: Throwing exceptions from the scope of a plugin or subscriber in response to legitimate input, especially when this causes the outer scope to fail.     
 
 91:::::Shotgun surgery: Developer adds features to an application codebase which span a multiplicity of implementors or implementations in a 
 single change.     
@@ -245,8 +244,7 @@ development process itself.
 
 96:::::Not Invented Here (NIH) syndrome: The tendency towards reinventing the wheel (Failing to adopt an existing, adequate solution).     
 
-97:::::**Invented here**: The tendency towards dismissing any innovation or less than trivial solution originating from inside the organization, 
-usually because of lack of confidence in the staff.     
+97:::::**Invented here**: The tendency towards dismissing any innovation or less than trivial solution originating from inside the organization, usually because of lack of confidence in the staff.     
 
 98:::::Premature optimization: Coding early-on for perceived efficiency, sacrificing good design, maintainability, and sometimes even real-world 
 efficiency.     
@@ -263,8 +261,7 @@ the existing one.
 
 103:::::Tester Driven Development: Software projects in which new requirements are specified in bug reports.     
 
-104:::::Assumption Driven Programming refers to the developer practice of assuming all users are like them. The best way to avoid falling into 
-this trap is to interact with users as much as possible.   
+104:::::Assumption Driven Programming: refers to the developer practice of assuming all users are like them. The best way to avoid falling into this trap is to interact with users as much as possible.   
 ___________
 
 ## Configuration management anti-patterns.     
@@ -280,8 +277,30 @@ operating system.
 
 
 
-# Solution
+# Solution     
+base on above anti patterns , we can avoid them by follow this this major principles:  
 
+#### 1- Get technical depth and breadth about tools and how they work
+get familar and expert about your os, tools,goals of project,concepts you use,software methodology, advantage and disadvantage of them.    
+ability to **trade off** them together , it's need your brain has enough cache to store all of them     
+it can be reach by exprience ,reading awesomes source codes,be practical with design patterns, try and error.      
+
+#### 2- seprate concerns for god's sake     
+seprate variable meaning , method , class , module, package , responsibility.   
+don't encapsulate or expose interface or abstract too much or too a few.     
+
+#### 3- (use clean code)[https://gist.github.com/Arshiamidos/8474c210e072fed50b9747863b3e6619]      
+
+#### 4- think past , now , future (time situation effect) of project. more important increamentaly but not too much or too a few     
+it's like you are building a metro with stations and rails like [mini metro](https://play.google.com/store/apps/details?id=nz.co.codepoint.minimetro&hl=en).      
+it's better to write test for backward(time) compatibility.    
+
+#### 5- think all side of project or tech,with micro ,macro or mega magnifier simultaneously(place situation effect) .     
+e.g use codecity for browseing project's density.     
+
+#### 6 - repair your code as soon as possilbe you can , before it's too late (Leblanc Law : later equals never) [https://gist.github.com/Arshiamidos/8474c210e072fed50b9747863b3e6619].    
+
+#### 7 - don't trust user input, validate first and then apply.    
 
 ## links     
 https://en.wikibooks.org/wiki/Introduction_to_Software_Engineering/Architecture/Anti-Patterns       
