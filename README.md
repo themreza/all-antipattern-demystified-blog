@@ -12,6 +12,7 @@ ___________
 2:::::Swiss Army Knifes : design architect for multi or general porpose(all possible use of class).    
 
 3:::::Warm bodies(Brook law):One out of 20 programmers... produces 20 times the software compared to an average programmer.(NOT ALL PROGRAMMERS).       
+
 4:::::The Grand Old Duke Of York(Abstraction vs Implimentation) :Experts report that only 1 in 5 software developers is able to define good abstractions On hearing this, a practicing software architect retorted, "It's more like 1 out of 50.".     
 
 5:::::Architecture by Implication:Management of risk in follow-on system development is often overlooked due to overconfidence and recent system successes.Reliance on previous experience, which may differ in critical areas.         
